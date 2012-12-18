@@ -1,0 +1,23 @@
+//Ma super class bien décrite
+
+class coucou extends trala {
+    static Boolean value = true;
+    Int b;
+
+    void test() {
+       }
+    static void setValue(Boolean b, Int c)
+    {
+    /* tralala */
+        Int a = 2 in {
+        value = !b;
+        /* et la*/
+        if(c<0) {
+        c = -c + 32 - 4 / 2; 
+        d = this;
+        d = null;
+        d = new coucou;
+        }
+        }
+    }
+}

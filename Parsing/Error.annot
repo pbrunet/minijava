@@ -1,0 +1,389 @@
+"Error.ml" 11 180 184 "Error.ml" 11 180 196
+type(
+  t -> unit
+)
+ident(
+  def report_error "Error.ml" 25 616 616 --
+)
+"Error.ml" 12 208 230 "Error.ml" 12 208 231
+type(
+  char
+)
+ident(
+  def c "Error.ml" 13 235 241 "Error.ml" 15 297 321
+)
+"Error.ml" 12 208 212 "Error.ml" 12 208 231
+type(
+  t
+)
+"Error.ml" 13 235 241 "Error.ml" 13 235 253
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"Error.ml" 13 235 254 "Error.ml" 13 235 275
+type(
+  string
+)
+"Error.ml" 13 235 241 "Error.ml" 13 235 275
+call(
+  stack
+)
+type(
+  unit
+)
+"Error.ml" 14 277 283 "Error.ml" 14 277 293
+type(
+  char -> unit
+)
+ident(
+  ext_ref Pervasives.print_char
+)
+"Error.ml" 14 277 294 "Error.ml" 14 277 295
+type(
+  char
+)
+ident(
+  int_ref c "Error.ml" 12 208 230 "Error.ml" 12 208 231
+)
+"Error.ml" 14 277 283 "Error.ml" 14 277 295
+call(
+  stack
+)
+type(
+  unit
+)
+"Error.ml" 15 297 303 "Error.ml" 15 297 315
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"Error.ml" 15 297 316 "Error.ml" 15 297 321
+type(
+  string
+)
+"Error.ml" 15 297 303 "Error.ml" 15 297 321
+call(
+  tail
+)
+type(
+  unit
+)
+"Error.ml" 14 277 283 "Error.ml" 15 297 321
+type(
+  unit
+)
+"Error.ml" 13 235 241 "Error.ml" 15 297 321
+type(
+  unit
+)
+"Error.ml" 16 322 326 "Error.ml" 16 322 345
+type(
+  t
+)
+"Error.ml" 17 349 355 "Error.ml" 17 349 368
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"Error.ml" 17 349 369 "Error.ml" 17 349 407
+type(
+  string
+)
+"Error.ml" 17 349 355 "Error.ml" 17 349 407
+call(
+  tail
+)
+type(
+  unit
+)
+"Error.ml" 18 408 412 "Error.ml" 18 408 431
+type(
+  t
+)
+"Error.ml" 19 435 441 "Error.ml" 19 435 454
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"Error.ml" 19 435 455 "Error.ml" 19 435 488
+type(
+  string
+)
+"Error.ml" 19 435 441 "Error.ml" 19 435 488
+call(
+  tail
+)
+type(
+  unit
+)
+"Error.ml" 20 489 493 "Error.ml" 20 489 513
+type(
+  t
+)
+"Error.ml" 21 517 523 "Error.ml" 21 517 536
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"Error.ml" 21 517 537 "Error.ml" 21 517 563
+type(
+  string
+)
+"Error.ml" 21 517 523 "Error.ml" 21 517 563
+call(
+  tail
+)
+type(
+  unit
+)
+"Error.ml" 22 564 568 "Error.ml" 22 564 574
+type(
+  t
+)
+"Error.ml" 23 578 584 "Error.ml" 23 578 597
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"Error.ml" 23 578 598 "Error.ml" 23 578 614
+type(
+  string
+)
+"Error.ml" 23 578 584 "Error.ml" 23 578 614
+call(
+  tail
+)
+type(
+  unit
+)
+"Error.ml" 11 180 199 "Error.ml" 23 578 614
+type(
+  t -> unit
+)
+"Error.ml" 25 616 620 "Error.ml" 25 616 632
+type(
+  char -> Location.t -> 'a
+)
+ident(
+  def illegal_char "Error.ml" 28 690 690 --
+)
+"Error.ml" 25 616 633 "Error.ml" 25 616 637
+type(
+  char
+)
+ident(
+  def char "Error.ml" 25 616 638 "Error.ml" 26 644 688
+)
+"Error.ml" 25 616 638 "Error.ml" 25 616 641
+type(
+  Location.t
+)
+ident(
+  def loc "Error.ml" 26 644 646 "Error.ml" 26 644 688
+)
+"Error.ml" 26 644 646 "Error.ml" 26 644 651
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"Error.ml" 26 644 677 "Error.ml" 26 644 681
+type(
+  char
+)
+ident(
+  int_ref char "Error.ml" 25 616 633 "Error.ml" 25 616 637
+)
+"Error.ml" 26 644 659 "Error.ml" 26 644 681
+type(
+  t
+)
+"Error.ml" 26 644 683 "Error.ml" 26 644 686
+type(
+  Location.t
+)
+ident(
+  int_ref loc "Error.ml" 25 616 638 "Error.ml" 25 616 641
+)
+"Error.ml" 26 644 652 "Error.ml" 26 644 688
+type(
+  exn
+)
+"Error.ml" 26 644 646 "Error.ml" 26 644 688
+type(
+  'a
+)
+"Error.ml" 28 690 694 "Error.ml" 28 690 713
+type(
+  Location.t -> 'a
+)
+ident(
+  def illegal_escape_char "Error.ml" 31 763 763 --
+)
+"Error.ml" 28 690 714 "Error.ml" 28 690 717
+type(
+  Location.t
+)
+ident(
+  def loc "Error.ml" 29 720 722 "Error.ml" 29 720 761
+)
+"Error.ml" 29 720 722 "Error.ml" 29 720 727
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"Error.ml" 29 720 735 "Error.ml" 29 720 754
+type(
+  t
+)
+"Error.ml" 29 720 756 "Error.ml" 29 720 759
+type(
+  Location.t
+)
+ident(
+  int_ref loc "Error.ml" 28 690 714 "Error.ml" 28 690 717
+)
+"Error.ml" 29 720 728 "Error.ml" 29 720 761
+type(
+  exn
+)
+"Error.ml" 29 720 722 "Error.ml" 29 720 761
+type(
+  'a
+)
+"Error.ml" 31 763 767 "Error.ml" 31 763 786
+type(
+  Location.t -> 'a
+)
+ident(
+  def unterminated_string "Error.ml" 34 837 837 --
+)
+"Error.ml" 31 763 787 "Error.ml" 31 763 790
+type(
+  Location.t
+)
+ident(
+  def loc "Error.ml" 32 793 795 "Error.ml" 32 793 835
+)
+"Error.ml" 32 793 795 "Error.ml" 32 793 800
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"Error.ml" 32 793 809 "Error.ml" 32 793 828
+type(
+  t
+)
+"Error.ml" 32 793 830 "Error.ml" 32 793 833
+type(
+  Location.t
+)
+ident(
+  int_ref loc "Error.ml" 31 763 787 "Error.ml" 31 763 790
+)
+"Error.ml" 32 793 801 "Error.ml" 32 793 835
+type(
+  exn
+)
+"Error.ml" 32 793 795 "Error.ml" 32 793 835
+type(
+  'a
+)
+"Error.ml" 34 837 841 "Error.ml" 34 837 861
+type(
+  Location.t -> 'a
+)
+ident(
+  def unterminated_comment "Error.ml" 37 913 913 --
+)
+"Error.ml" 34 837 862 "Error.ml" 34 837 865
+type(
+  Location.t
+)
+ident(
+  def loc "Error.ml" 35 868 870 "Error.ml" 35 868 911
+)
+"Error.ml" 35 868 870 "Error.ml" 35 868 875
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"Error.ml" 35 868 884 "Error.ml" 35 868 904
+type(
+  t
+)
+"Error.ml" 35 868 906 "Error.ml" 35 868 909
+type(
+  Location.t
+)
+ident(
+  int_ref loc "Error.ml" 34 837 862 "Error.ml" 34 837 865
+)
+"Error.ml" 35 868 876 "Error.ml" 35 868 911
+type(
+  exn
+)
+"Error.ml" 35 868 870 "Error.ml" 35 868 911
+type(
+  'a
+)
+"Error.ml" 37 913 917 "Error.ml" 37 913 923
+type(
+  Location.t -> 'a
+)
+ident(
+  def syntax "Error.ml" 38 930 959 --
+)
+"Error.ml" 37 913 924 "Error.ml" 37 913 927
+type(
+  Location.t
+)
+ident(
+  def loc "Error.ml" 38 930 932 "Error.ml" 38 930 959
+)
+"Error.ml" 38 930 932 "Error.ml" 38 930 937
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"Error.ml" 38 930 946 "Error.ml" 38 930 952
+type(
+  t
+)
+"Error.ml" 38 930 954 "Error.ml" 38 930 957
+type(
+  Location.t
+)
+ident(
+  int_ref loc "Error.ml" 37 913 924 "Error.ml" 37 913 927
+)
+"Error.ml" 38 930 938 "Error.ml" 38 930 959
+type(
+  exn
+)
+"Error.ml" 38 930 932 "Error.ml" 38 930 959
+type(
+  'a
+)
